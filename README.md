@@ -76,4 +76,4 @@ Visit my [Rock,Paper,Scissors project][1], and review it.
     GitHub
 
 
-[1]:https://waed-hamza.github.io/google-home-page/
+[1]:https://waed-hamza.github.io/RockPaperScissors/
