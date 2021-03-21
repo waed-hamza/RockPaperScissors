@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/23bea62652.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./images/logo.svg">
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+
+    <div id="root">
+        <header>
+            <button id="reset-btn">Play Again</button>
+            <h1>ROUND <span id="round-value">1</span></h1>
+        </header>
+
+        <main>
+            <!-- Your Score Div -->
+            <div class="playground-container">
+                <h2>Your Score: <span id="player-score">0</span></h2>
+                <!-- Images Container -->
+                <div class="images-container">
+                    <i class="fa-icon fa fa-hand-rock-o" aria-hidden="true"></i>
+                    <i class="fa-icon fa fa-hand-paper-o" aria-hidden="true"></i>
+                    <i class="fa-icon fa fa-hand-scissors-o" aria-hidden="true"></i>
+                </div>
+            </div>
+            <!-- Computer Score Div -->
+            <div class="playground-container">
+                <h2>Computer Score: <span id="computer-score">0</span></h2>
+                <!-- Images Container -->
+                <div class="images-container"></div>
+            </div>
+        </main>
+
+        <footer>
+            <!-- Winner Container -->
+            <div class="winner-container">
+                <p class="winner-p"></p>
+            </div>
+        </footer>
+    </div>
+    
+    <script src="/sctipt.js"></script>
+</body>
+</html>
